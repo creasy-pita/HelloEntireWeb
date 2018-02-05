@@ -1,0 +1,26 @@
+﻿{
+  "defaultAssembly": "HelloEntireWeb",
+  "components": [
+    {
+      "type": "HelloEntireWeb.Models.DbAccessModel, HelloEntireWeb",
+      "services": [
+        {
+          "type": "HelloEntireWeb.Models.DbAccessModel"
+        }
+      ],
+      "injectProperties": true
+
+    },
+    {
+      "type": "HelloEntireWeb.Services.MySqlDbAccess, HelloEntireWeb",
+      "services": [
+        {
+          "type": "HelloEntireWeb.Services.IDbAccess"
+        }
+      ],
+      "injectProperties": true,
+      "parameters": { "ConnectionStr": "Server=192.168.11.83;Database=blogging;Uid=root;Pwd=root;Encrypt=true " },
+      "instanceScope": "singleinstance"
+    }
+  ]
+}

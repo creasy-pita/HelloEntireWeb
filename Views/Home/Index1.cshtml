@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model HelloEntireWeb.Models.DbAccessModel
+@{
+
+}
+<div>
+    ddddd
+    @{
+        System.Data.DataSet ds = Model.GetBlogs();
+    }
+    @foreach (System.Data.DataRow dr in ds.Tables[0].Rows)
+    {
+        <div>@dr[0]</div>
+        <div>@dr[1]</div>
+    }
+    DbAccessModel.GetHashCode @Model.GetHashCode()
+    DbAccessModel.dbAccess.GetHashCode @Model.dbAccess.GetHashCode()
+
+</div>
