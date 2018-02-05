@@ -16,7 +16,10 @@ namespace HelloEntireWeb.Controllers
             MessageList.Add("bbb");
             MessageList.Add("cccc");
             MessageList.Add("dddd");
-            BlogModel model = new BlogModel("uuuu");
+            BloggingContext bloggingContext = new BloggingContext();
+            BlogModel model = new BlogModel(bloggingContext);
+
+
             return View("Index", model);
         }
     }
