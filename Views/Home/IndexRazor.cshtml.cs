@@ -5,16 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace HelloEntireWeb.Views
+namespace HelloEntireWeb.Views.Home
 {
-    public class IndexModel : PageModel
+    public class IndexRazorModel : PageModel
     {
-        public IList<string> MessageList;
-
         public void OnGet()
         {
-            MessageList = new List<string>();
-
         }
     }
 }

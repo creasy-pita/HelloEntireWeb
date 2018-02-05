@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HelloEntireWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelloEntireWeb.Controllers
@@ -10,8 +11,13 @@ namespace HelloEntireWeb.Controllers
     {
         public IActionResult Index()
         {
-            
-            return View();
+            IList<string> MessageList = new List<string>();
+            MessageList.Add("aaa");
+            MessageList.Add("bbb");
+            MessageList.Add("cccc");
+            MessageList.Add("dddd");
+            BlogModel model = new BlogModel("uuuu");
+            return View("Index", model);
         }
     }
 }

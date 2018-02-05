@@ -3,9 +3,9 @@ E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\bin\Debug\netcoreapp2.0\
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\bin\Debug\netcoreapp2.0\HelloEntireWeb.runtimeconfig.dev.json
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\bin\Debug\netcoreapp2.0\HelloEntireWeb.dll
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\bin\Debug\netcoreapp2.0\HelloEntireWeb.pdb
-E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.csprojResolveAssemblyReference.cache
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.csproj.CoreCompileInputs.cache
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.AssemblyInfoInputs.cache
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.AssemblyInfo.cs
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.dll
 E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.pdb
+E:\work\myproject\netcore\HelloEntireWeb\HelloEntireWeb\obj\Debug\netcoreapp2.0\HelloEntireWeb.csprojResolveAssemblyReference.cache
